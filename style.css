@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 5%;
+    bottom: 10px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: none;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width img{
+    width: 90%;
+}
+.orange-highlight{
+    color: orange;
+
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato); 
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.one-third{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+.one-third img{
+    width: 100%;
+}
+#purple-highlight{
+    color: purple;
+}
+
+.center{
+    text-align: center;
+}
+
+.inquiry{
+    position: relative;
+    margin-top: 100px;
+    height: 50px;
+    padding-bottom: 250px;
+}
+
+.inquiry img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.inquiry h1{
+    position: absolute;
+    top: 30px;
+    left: 350px;
+    font-size: 64px;
+    line-height: 64px;
+    width: 70%;
+    color: white;
+}
+
+.inquiry a{
+    position: absolute;
+    top: 90px;
+    right: 350px;
+}
+
+.footerr{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.footerr img{
+    padding: 2%;
+    width: 7%;
+}
