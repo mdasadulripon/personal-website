@@ -19,9 +19,13 @@ ul li a{
     color: black;
     padding: 5px 20px;
     border: none;
+    color: #3c3c3c;
 }
 h1{
+    font-weight: bold;
     font-size: 50px;
+    color:#363658
+    
 }
 h2{
     font-size: 40px;
@@ -53,6 +57,8 @@ section{
     color: white;
     font-weight: 700;
 }
+/*Wokring project*/
+
 .one-third{
     width: 25%;
     float: left;
@@ -63,9 +69,33 @@ section{
 .one-third img{
     width: 100%;
 }
+.one-third h3{
+    color: #363658;
+}
+.one-third p{
+    color: #6c6c6c;
+}
 #purple-highlight{
     color: purple;
 }
+
+/*Cilents*/
+
+.clients{
+    text-align: center;
+    background-color: cadetblue;
+    margin: 5%;
+    border-radius: 20px;
+    height: 150px;
+}
+.clients h3{
+    color: white;
+    font-weight: bold;
+}
+
+
+/* Inquiry */
+
 
 .center{
     text-align: center;
@@ -101,6 +131,10 @@ section{
     right: 350px;
 }
 
+
+/* Footer */
+
+
 .footerr{
     text-align: center;
     margin-left: auto;
@@ -109,5 +143,8 @@ section{
 }
 .footerr img{
     padding: 2%;
-    width: 7%;
+    width: 5%;
+}
+.footerr h3{
+    color: #6c6c6c;
 }
